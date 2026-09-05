@@ -24,6 +24,15 @@ namespace QueuingForm
             DisplayCashierQueue(CashierClass.CashierQueue);
         }
 
+        private void btnNext_Click(object sender, EventArgs e)
+        {
+            if (CashierClass.CashierQueue.Count > 0)
+            {
+                CashierClass.CashierQueue.Dequeue();
+                DisplayCashierQueue(CashierClass.CashierQueue);
+            }
+        }
+
         public void DisplayCashierQueue(IEnumerable CashierList)
         {
             listCashierQueue.Items.Clear();
@@ -35,7 +44,7 @@ namespace QueuingForm
 
         private void timer_Tick(object sender, EventArgs e)
         {
-            timer.Start();
+            DisplayCashierQueue(CashierClass.CashierQueue);
         }
     }
 }

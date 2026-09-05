@@ -46,7 +46,7 @@
             panel1.Dock = DockStyle.Fill;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(284, 261);
+            panel1.Size = new Size(257, 261);
             panel1.TabIndex = 0;
             // 
             // panel2
@@ -57,7 +57,7 @@
             panel2.Controls.Add(listCashierQueue);
             panel2.Location = new Point(3, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(278, 255);
+            panel2.Size = new Size(251, 255);
             panel2.TabIndex = 0;
             // 
             // btnNext
@@ -71,6 +71,7 @@
             btnNext.TabIndex = 1;
             btnNext.Text = "Next";
             btnNext.UseVisualStyleBackColor = false;
+            btnNext.Click += btnNext_Click;
             // 
             // btnRefresh
             // 
@@ -90,12 +91,14 @@
             listCashierQueue.Font = new Font("Cascadia Mono", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             listCashierQueue.Location = new Point(106, 9);
             listCashierQueue.Name = "listCashierQueue";
-            listCashierQueue.Size = new Size(163, 237);
+            listCashierQueue.Size = new Size(136, 237);
             listCashierQueue.TabIndex = 0;
             listCashierQueue.UseCompatibleStateImageBehavior = false;
+            listCashierQueue.View = View.List;
             // 
             // timer
             // 
+            timer.Enabled = true;
             timer.Interval = 1000;
             timer.Tick += timer_Tick;
             // 
@@ -103,7 +106,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(284, 261);
+            ClientSize = new Size(257, 261);
             Controls.Add(panel1);
             Name = "CashierWindowQueueForm";
             Text = "CashierWindowQueueForm";

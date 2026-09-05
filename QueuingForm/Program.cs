@@ -11,8 +11,11 @@ namespace QueuingForm
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+
+            CashierWindowQueueForm cashier_window = new CashierWindowQueueForm();
+            cashier_window.Show();
+
             Application.Run(new QueuingForm());
-            Application.Run(new CashierWindowQueueForm());
             
         }
     }
