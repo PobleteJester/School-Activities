@@ -91,9 +91,9 @@
             lblAddress.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAddress.Location = new Point(143, 293);
             lblAddress.Name = "lblAddress";
-            lblAddress.Size = new Size(63, 20);
+            lblAddress.Size = new Size(27, 20);
             lblAddress.TabIndex = 0;
-            lblAddress.Text = "label1";
+            lblAddress.Text = "--";
             // 
             // lblContactNo
             // 
@@ -101,9 +101,9 @@
             lblContactNo.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblContactNo.Location = new Point(143, 252);
             lblContactNo.Name = "lblContactNo";
-            lblContactNo.Size = new Size(63, 20);
+            lblContactNo.Size = new Size(27, 20);
             lblContactNo.TabIndex = 0;
-            lblContactNo.Text = "label1";
+            lblContactNo.Text = "--";
             // 
             // label8
             // 
@@ -121,9 +121,9 @@
             lblFirstName.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblFirstName.Location = new Point(143, 132);
             lblFirstName.Name = "lblFirstName";
-            lblFirstName.Size = new Size(63, 20);
+            lblFirstName.Size = new Size(27, 20);
             lblFirstName.TabIndex = 0;
-            lblFirstName.Text = "label1";
+            lblFirstName.Text = "--";
             // 
             // label7
             // 
@@ -141,9 +141,9 @@
             lblAge.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblAge.Location = new Point(143, 211);
             lblAge.Name = "lblAge";
-            lblAge.Size = new Size(63, 20);
+            lblAge.Size = new Size(27, 20);
             lblAge.TabIndex = 0;
-            lblAge.Text = "label1";
+            lblAge.Text = "--";
             // 
             // label4
             // 
@@ -161,9 +161,9 @@
             lblLastName.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblLastName.Location = new Point(143, 91);
             lblLastName.Name = "lblLastName";
-            lblLastName.Size = new Size(63, 20);
+            lblLastName.Size = new Size(27, 20);
             lblLastName.TabIndex = 0;
-            lblLastName.Text = "label1";
+            lblLastName.Text = "--";
             // 
             // label6
             // 
@@ -181,9 +181,9 @@
             lblMiddleName.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblMiddleName.Location = new Point(143, 170);
             lblMiddleName.Name = "lblMiddleName";
-            lblMiddleName.Size = new Size(63, 20);
+            lblMiddleName.Size = new Size(27, 20);
             lblMiddleName.TabIndex = 0;
-            lblMiddleName.Text = "label1";
+            lblMiddleName.Text = "--";
             // 
             // label3
             // 
@@ -201,9 +201,9 @@
             lblProgram.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblProgram.Location = new Point(143, 50);
             lblProgram.Name = "lblProgram";
-            lblProgram.Size = new Size(63, 20);
+            lblProgram.Size = new Size(27, 20);
             lblProgram.TabIndex = 0;
-            lblProgram.Text = "label1";
+            lblProgram.Text = "--";
             // 
             // label5
             // 
@@ -221,9 +221,9 @@
             lblStudentNo.Font = new Font("Cascadia Mono", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblStudentNo.Location = new Point(143, 9);
             lblStudentNo.Name = "lblStudentNo";
-            lblStudentNo.Size = new Size(63, 20);
+            lblStudentNo.Size = new Size(27, 20);
             lblStudentNo.TabIndex = 0;
-            lblStudentNo.Text = "label1";
+            lblStudentNo.Text = "--";
             // 
             // label2
             // 

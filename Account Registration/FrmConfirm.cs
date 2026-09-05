@@ -29,13 +29,13 @@ namespace Account_Registration
 
         private void FrmConfirm_Load(object sender, EventArgs e)
         {
-            lblStudentNo.Text = DelStudNo(StudentInfoClass.StudentNo).ToString();
+            lblStudentNo.Text = "0" + DelStudNo(StudentInfoClass.StudentNo).ToString();
             lblProgram.Text = DelProgram(StudentInfoClass.Program);
             lblLastName.Text = DelLastName(StudentInfoClass.LastName);
             lblFirstName.Text = DelFirstName(StudentInfoClass.FirstName);
             lblMiddleName.Text = DelMiddleName(StudentInfoClass.MiddleName);
             lblAge.Text = DelNumAge(StudentInfoClass.Age).ToString();
-            lblContactNo.Text = DelNumContactNo(StudentInfoClass.ContactNo).ToString();
+            lblContactNo.Text = "0" + DelNumContactNo(StudentInfoClass.ContactNo).ToString();
             lblAddress.Text = DelAddress(StudentInfoClass.Address);
         }
 
