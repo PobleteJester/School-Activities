@@ -1,4 +1,6 @@
 using System.Text.RegularExpressions;
+using System.Xml.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Inventory
 {
@@ -42,30 +44,36 @@ namespace Inventory
             }
         }
 
-        private string Product_Name(string name)
+        public void CLearFields()
         {
-            if (string.IsNullOrWhiteSpace(name))
-                throw new StringFormatException("Product name cannot be empty.");
+            txtProductName.Clear();
+            cbCategory.SelectedIndex = -1;
+            dtPickerMfgDate.Value = DateTime.Now;
+            dtPickerExpDate.Value = DateTime.Now;
+            richTxtDescription.Clear();
+            txtQuantity.Clear();
+            txtSellPrice.Clear();
+        }
 
+        public string Product_Name(string name)
+        {
+            if (!Regex.IsMatch(name, @"^[a-zA-Z0-9\s]+$"))
+                throw new StringFormatException("Please enter a valid product name.");
             return name;
         }
 
-        private int Quantity(string qty)
+        public int Quantity(string qty)
         {
-            int result;
-            if (!int.TryParse(qty, out result) || result < 0)
-                throw new NumberFormatException("Quantity must be a valid non-negative whole number.");
-
-            return result;
+            if (!Regex.IsMatch(qty, @"^[0-9]+$"))
+                throw new NumberFormatException("Please enter a valid quantity. It must be a valid non - negative whole number.");
+            return Convert.ToInt32(qty);
         }
 
-        private double SellingPrice(string price)
+        public double SellingPrice(string price)
         {
-            double result;
-            if (!double.TryParse(price, out result) || result < 0)
+            if (!Regex.IsMatch(price, @"^(\d*\.)?\d+$"))
                 throw new CurrencyFormatException("Sell price must be a valid non-negative amount.");
-
-            return result;
+            return Convert.ToDouble(price);
         }
 
         private void btnAddProduct_Click(object sender, EventArgs e)
@@ -85,22 +93,24 @@ namespace Inventory
 
                 gridViewProductList.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
                 gridViewProductList.DataSource = showProductList;
+
+                CLearFields();
             }
-            catch (StringFormatException sfe)
+            catch (StringFormatException ex)
             {
-                MessageBox.Show("Product Error: " + sfe.Message, "Error");
+                MessageBox.Show(ex.Message, "Invalid Product Name.", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (NumberFormatException nfe)
+            catch (NumberFormatException ex)
             {
-                MessageBox.Show("Quantity Error: " + nfe.Message, "Error");
+                MessageBox.Show(ex.Message, "Invalid Quantity.", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (CurrencyFormatException cfe)
+            catch (CurrencyFormatException ex)
             {
-                MessageBox.Show("Sell Price Error: " + cfe.Message, "Error");
+                MessageBox.Show(ex.Message, "Invalid Sell Price.", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
-                Console.WriteLine("Add Product attempt finished.");
+                Console.WriteLine("Add product attempt finished at " + DateTime.Now);
             }
         }
     }
