@@ -10,7 +10,7 @@ namespace FrmTrackThread
         private void btnRun_Click(object sender, EventArgs e)
         {
 
-            lblShowStatus.Text = "- Thread Starts -";
+            lblShowStatus.Text = "- THREAD STARTS -";
             lblShowStatus.Refresh();
             Console.WriteLine("- Thread Starts -");
 
@@ -40,7 +40,7 @@ namespace FrmTrackThread
             threadD.Join();
 
             Console.WriteLine("- End of Thread -");
-            lblShowStatus.Text = "- End of Thread -";
+            lblShowStatus.Text = "- END OF THREAD -";
         }
     }
 }

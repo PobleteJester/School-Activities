@@ -35,36 +35,36 @@
             // lblShowStatus
             // 
             lblShowStatus.AutoSize = true;
-            lblShowStatus.Font = new Font("Segoe UI Black", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblShowStatus.Location = new Point(28, 40);
+            lblShowStatus.Font = new Font("Cascadia Code", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblShowStatus.Location = new Point(22, 40);
             lblShowStatus.Name = "lblShowStatus";
-            lblShowStatus.Size = new Size(233, 37);
+            lblShowStatus.Size = new Size(287, 35);
             lblShowStatus.TabIndex = 0;
-            lblShowStatus.Text = "- Thread Starts -";
+            lblShowStatus.Text = "- THREAD STARTS -";
             // 
             // btnRun
             // 
-            btnRun.BackColor = Color.DodgerBlue;
+            btnRun.BackColor = Color.FromArgb(0, 192, 0);
             btnRun.FlatAppearance.BorderColor = Color.LightGray;
             btnRun.FlatStyle = FlatStyle.Flat;
-            btnRun.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRun.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRun.ForeColor = Color.White;
-            btnRun.Location = new Point(81, 100);
+            btnRun.Location = new Point(95, 98);
             btnRun.Name = "btnRun";
             btnRun.Size = new Size(130, 35);
             btnRun.TabIndex = 1;
-            btnRun.Text = "Run";
+            btnRun.Text = "RUN";
             btnRun.UseVisualStyleBackColor = false;
             btnRun.Click += btnRun_Click;
             // 
-            // Form1
+            // FrmTrackThread
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(292, 174);
+            ClientSize = new Size(329, 157);
             Controls.Add(btnRun);
             Controls.Add(lblShowStatus);
-            Name = "Form1";
+            Name = "FrmTrackThread";
             Text = "FrmTrackThread";
             ResumeLayout(false);
             PerformLayout();
