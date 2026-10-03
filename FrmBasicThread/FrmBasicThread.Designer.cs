@@ -66,6 +66,7 @@
             Controls.Add(btnRun);
             Controls.Add(lblShowStatus);
             Name = "FrmBasicThread";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Basic Thread";
             ResumeLayout(false);
             PerformLayout();

@@ -18,6 +18,8 @@ namespace FrmBasicThread
 
         private void btnRun_Click(object sender, EventArgs e)
         {
+            lblShowStatus.Text = "- BEFORE STARTING THREAD -";
+            lblShowStatus.Refresh();
             Console.WriteLine("-Before starting threads-");
             Thread threadA = new Thread(MyThreadClass.Thread1);
             threadA.Name = "Thread A";

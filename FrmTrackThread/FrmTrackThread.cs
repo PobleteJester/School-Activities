@@ -12,6 +12,7 @@ namespace FrmTrackThread
 
             lblShowStatus.Text = "- THREAD STARTS -";
             lblShowStatus.Refresh();
+
             Console.WriteLine("- Thread Starts -");
 
             Thread threadA = new Thread(MyThreadClass.Thread1);
@@ -40,6 +41,7 @@ namespace FrmTrackThread
             threadD.Join();
 
             Console.WriteLine("- End of Thread -");
+
             lblShowStatus.Text = "- END OF THREAD -";
         }
     }

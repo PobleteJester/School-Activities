@@ -65,6 +65,7 @@
             Controls.Add(btnRun);
             Controls.Add(lblShowStatus);
             Name = "FrmTrackThread";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmTrackThread";
             ResumeLayout(false);
             PerformLayout();
