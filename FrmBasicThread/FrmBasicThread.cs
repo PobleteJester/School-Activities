@@ -32,7 +32,7 @@ namespace FrmBasicThread
             threadB.Join();
 
             Console.WriteLine("- End of Thread -");
-            lblShowStatus.Text = "- End of Thread -";
+            lblShowStatus.Text = "    - END OF THREAD -";
 
         }
 

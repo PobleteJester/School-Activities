@@ -36,36 +36,36 @@
             // 
             lblShowStatus.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             lblShowStatus.AutoSize = true;
-            lblShowStatus.Font = new Font("Segoe UI Black", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblShowStatus.Font = new Font("Cascadia Code", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblShowStatus.Location = new Point(12, 37);
             lblShowStatus.Name = "lblShowStatus";
-            lblShowStatus.Size = new Size(385, 40);
+            lblShowStatus.Size = new Size(459, 39);
             lblShowStatus.TabIndex = 0;
-            lblShowStatus.Text = "- Before Starting Thread -";
+            lblShowStatus.Text = "- BEFORE STARTING THREAD -";
             // 
             // btnRun
             // 
-            btnRun.BackColor = Color.DodgerBlue;
+            btnRun.BackColor = Color.FromArgb(0, 192, 0);
             btnRun.FlatAppearance.BorderColor = Color.LightGray;
             btnRun.FlatStyle = FlatStyle.Flat;
-            btnRun.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRun.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRun.ForeColor = Color.White;
-            btnRun.Location = new Point(127, 94);
+            btnRun.Location = new Point(160, 94);
             btnRun.Name = "btnRun";
-            btnRun.Size = new Size(150, 33);
+            btnRun.Size = new Size(150, 36);
             btnRun.TabIndex = 1;
-            btnRun.Text = "Run";
+            btnRun.Text = "RUN";
             btnRun.UseVisualStyleBackColor = false;
             btnRun.Click += btnRun_Click;
             // 
-            // Form1
+            // FrmBasicThread
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(409, 162);
+            ClientSize = new Size(490, 162);
             Controls.Add(btnRun);
             Controls.Add(lblShowStatus);
-            Name = "Form1";
+            Name = "FrmBasicThread";
             Text = "Basic Thread";
             ResumeLayout(false);
             PerformLayout();
