@@ -1,4 +1,4 @@
-﻿namespace Sulit_Justin_LabStream
+﻿namespace Poblete_JesterMartin_LabStream
 {
     partial class FrmLab1
     {

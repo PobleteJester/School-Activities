@@ -7,7 +7,7 @@ using System.IO;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Sulit_Justin_LabStream
+namespace Poblete_JesterMartin_LabStream
 {
     public partial class FrmLab1 : Form
     {
