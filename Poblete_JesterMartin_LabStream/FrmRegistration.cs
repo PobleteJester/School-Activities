@@ -73,5 +73,13 @@ namespace Sulit_Justin_LabStream
                 MessageBox.Show(ex.Message, "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+
+        private void btnRecords_Click(object sender, EventArgs e)
+        {
+            FrmStudentRecord studentRecordForm = new FrmStudentRecord();
+            studentRecordForm.Show(this);
+            this.Hide();
+
+        }
     }
 }

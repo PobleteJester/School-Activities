@@ -1,0 +1,17 @@
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\OpenTextFile.FrmOpenTextFile.resources
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.csproj.GenerateResource.cache
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.AssemblyInfoInputs.cache
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.AssemblyInfo.cs
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.csproj.CoreCompileInputs.cache
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.sourcelink.json
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\bin\Debug\net10.0-windows\FrmOpenFile.exe
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\bin\Debug\net10.0-windows\FrmOpenFile.deps.json
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\bin\Debug\net10.0-windows\FrmOpenFile.runtimeconfig.json
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\bin\Debug\net10.0-windows\FrmOpenFile.dll
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\bin\Debug\net10.0-windows\FrmOpenFile.pdb
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.dll
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\refint\FrmOpenFile.dll
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.pdb
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\FrmOpenFile.genruntimeconfig.cache
+C:\Users\poblete.416877\source\repos\PobleteJester\School-Activities\FrmOpenFile\obj\Debug\net10.0-windows\ref\FrmOpenFile.dll

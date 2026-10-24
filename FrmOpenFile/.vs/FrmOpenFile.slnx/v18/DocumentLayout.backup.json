@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{604F6B4C-612C-9DDC-E97C-2DFE6500CB19}|FrmOpenFile.csproj|C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\frmopentextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{604F6B4C-612C-9DDC-E97C-2DFE6500CB19}|FrmOpenFile.csproj|solutionrelative:frmopentextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{604F6B4C-612C-9DDC-E97C-2DFE6500CB19}|FrmOpenFile.csproj|c:\\users\\poblete.416877\\source\\repos\\pobletejester\\school-activities\\frmopenfile\\frmopentextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{604F6B4C-612C-9DDC-E97C-2DFE6500CB19}|FrmOpenFile.csproj|solutionrelative:frmopentextfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{604F6B4C-612C-9DDC-E97C-2DFE6500CB19}|FrmOpenFile.csproj|c:\\users\\poblete.416877\\source\\repos\\pobletejester\\school-activities\\frmopenfile\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{604F6B4C-612C-9DDC-E97C-2DFE6500CB19}|FrmOpenFile.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T06:49:16.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmOpenTextFile.cs",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\FrmOpenTextFile.cs",
+              "RelativeDocumentMoniker": "FrmOpenTextFile.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\FrmOpenTextFile.cs*",
+              "RelativeToolTip": "FrmOpenTextFile.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T06:41:53.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmOpenTextFile.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\FrmOpenTextFile.cs",
+              "RelativeDocumentMoniker": "FrmOpenTextFile.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\FrmOpenFile\\FrmOpenTextFile.cs [Design]*",
+              "RelativeToolTip": "FrmOpenTextFile.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-24T06:41:58.782Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

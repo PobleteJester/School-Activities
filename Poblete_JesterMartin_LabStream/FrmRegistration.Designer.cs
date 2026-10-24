@@ -49,6 +49,8 @@
             txtContact = new TextBox();
             btnRegister = new Button();
             label1 = new Label();
+            btnRecords = new Button();
+            label2 = new Label();
             SuspendLayout();
             // 
             // lblTitle
@@ -255,7 +257,7 @@
             btnRegister.FlatStyle = FlatStyle.Flat;
             btnRegister.Font = new Font("Cascadia Code", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnRegister.ForeColor = Color.White;
-            btnRegister.Location = new Point(239, 347);
+            btnRegister.Location = new Point(260, 345);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(130, 40);
             btnRegister.TabIndex = 19;
@@ -272,12 +274,39 @@
             label1.Size = new Size(640, 1);
             label1.TabIndex = 21;
             // 
+            // btnRecords
+            // 
+            btnRecords.BackColor = Color.CadetBlue;
+            btnRecords.Cursor = Cursors.Hand;
+            btnRecords.FlatAppearance.BorderSize = 0;
+            btnRecords.FlatStyle = FlatStyle.Flat;
+            btnRecords.Font = new Font("Cascadia Code", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnRecords.ForeColor = Color.White;
+            btnRecords.Location = new Point(562, 349);
+            btnRecords.Name = "btnRecords";
+            btnRecords.Size = new Size(90, 35);
+            btnRecords.TabIndex = 22;
+            btnRecords.Text = "Records";
+            btnRecords.UseVisualStyleBackColor = false;
+            btnRecords.Click += btnRecords_Click;
+            // 
+            // label2
+            // 
+            label2.BackColor = Color.Black;
+            label2.ForeColor = Color.FromArgb(31, 58, 95);
+            label2.Location = new Point(11, 320);
+            label2.Name = "label2";
+            label2.Size = new Size(640, 1);
+            label2.TabIndex = 23;
+            // 
             // FrmRegistration
             // 
             AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gainsboro;
             ClientSize = new Size(664, 411);
+            Controls.Add(label2);
+            Controls.Add(btnRecords);
             Controls.Add(label1);
             Controls.Add(btnRegister);
             Controls.Add(txtContact);
@@ -332,5 +361,7 @@
         private TextBox txtContact;
         private Button btnRegister;
         private Label label1;
+        private Button btnRecords;
+        private Label label2;
     }
 }
