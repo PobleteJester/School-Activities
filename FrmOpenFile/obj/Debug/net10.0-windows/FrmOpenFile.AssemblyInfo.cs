@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FrmOpenFile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0734d3f527fb2c6b9108fc3b0bb1f51940e4d78f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+392a3d1f24c92620d9154f9ac7129f035fc760e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("FrmOpenFile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FrmOpenFile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
