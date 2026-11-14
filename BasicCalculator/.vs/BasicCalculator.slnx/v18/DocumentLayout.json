@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|c:\\users\\poblete.416877\\source\\repos\\pobletejester\\school-activities\\basiccalculator\\basiccalculator\\frmbasiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|solutionrelative:basiccalculator\\frmbasiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\basiccalculator\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|solutionrelative:basiccalculator\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\basiccalculator\\frmbasiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|solutionrelative:basiccalculator\\frmbasiccalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1998A7-481B-449D-AEE7-5AA2EE959787}|CalculatorPrivateAssembly\\CalculatorPrivateAssembly.csproj|C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\calculatorprivateassembly\\basiccomputation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1998A7-481B-449D-AEE7-5AA2EE959787}|CalculatorPrivateAssembly\\CalculatorPrivateAssembly.csproj|solutionrelative:calculatorprivateassembly\\basiccomputation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\basiccalculator\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82065D22-324A-48D0-8770-20569F658026}|BasicCalculator\\BasicCalculator.csproj|solutionrelative:basiccalculator\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "BasicCalculator\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "BasicCalculator\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T07:27:50.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BasicComputation.cs",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\CalculatorPrivateAssembly\\BasicComputation.cs",
+              "RelativeDocumentMoniker": "CalculatorPrivateAssembly\\BasicComputation.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\CalculatorPrivateAssembly\\BasicComputation.cs",
+              "RelativeToolTip": "CalculatorPrivateAssembly\\BasicComputation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T07:09:18.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmBasicCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\FrmBasicCalculator.cs",
+              "RelativeDocumentMoniker": "BasicCalculator\\FrmBasicCalculator.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\FrmBasicCalculator.cs",
+              "RelativeToolTip": "BasicCalculator\\FrmBasicCalculator.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T06:56:30.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmBasicCalculator.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\FrmBasicCalculator.cs",
+              "RelativeDocumentMoniker": "BasicCalculator\\FrmBasicCalculator.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\FrmBasicCalculator.cs [Design]",
+              "RelativeToolTip": "BasicCalculator\\FrmBasicCalculator.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T06:52:36.694Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\Class1.cs",
+              "RelativeDocumentMoniker": "BasicCalculator\\Class1.cs",
+              "ToolTip": "C:\\Users\\poblete.416877\\source\\repos\\PobleteJester\\School-Activities\\BasicCalculator\\BasicCalculator\\Class1.cs",
+              "RelativeToolTip": "BasicCalculator\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-14T06:51:51.068Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
