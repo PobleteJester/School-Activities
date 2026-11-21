@@ -36,12 +36,16 @@ namespace BasicCalculator
                     return;
                 }
 
-                if (cbOperation.SelectedItem is not string operatorText)
+                if (string.IsNullOrWhiteSpace(cbOperation.SelectedItem?.ToString()))
                 {
-                    MessageBox.Show("Please select an operator.", "Missing operator", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("Please select an operator.", "Missing Operator",
+                        MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
                     cbOperation.Focus();
                     return;
                 }
+
+                string operatorText = cbOperation.SelectedItem.ToString();
 
                 if (operatorText == "/" && b == 0)
                 {
