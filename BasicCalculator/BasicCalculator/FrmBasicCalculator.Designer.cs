@@ -33,8 +33,8 @@
             this.cbOperation = new System.Windows.Forms.ComboBox();
             this.txtNum2 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblResult = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.lblResult = new System.Windows.Forms.Label();
             this.btnCompute = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -61,6 +61,11 @@
             // 
             this.cbOperation.Font = new System.Drawing.Font("Cascadia Code", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbOperation.FormattingEnabled = true;
+            this.cbOperation.Items.AddRange(new object[] {
+            "+",
+            "-",
+            "/",
+            "*"});
             this.cbOperation.Location = new System.Drawing.Point(116, 83);
             this.cbOperation.Name = "cbOperation";
             this.cbOperation.Size = new System.Drawing.Size(40, 33);
@@ -84,17 +89,6 @@
             this.panel1.Size = new System.Drawing.Size(260, 77);
             this.panel1.TabIndex = 3;
             // 
-            // lblResult
-            // 
-            this.lblResult.AutoSize = true;
-            this.lblResult.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResult.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblResult.Location = new System.Drawing.Point(13, 32);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(84, 28);
-            this.lblResult.TabIndex = 4;
-            this.lblResult.Text = "000000";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -106,6 +100,17 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Total:";
             // 
+            // lblResult
+            // 
+            this.lblResult.AutoSize = true;
+            this.lblResult.Font = new System.Drawing.Font("Cascadia Code", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResult.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.lblResult.Location = new System.Drawing.Point(13, 32);
+            this.lblResult.Name = "lblResult";
+            this.lblResult.Size = new System.Drawing.Size(84, 28);
+            this.lblResult.TabIndex = 4;
+            this.lblResult.Text = "000000";
+            // 
             // btnCompute
             // 
             this.btnCompute.Font = new System.Drawing.Font("Cascadia Code SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -115,6 +120,7 @@
             this.btnCompute.TabIndex = 4;
             this.btnCompute.Text = "Compute";
             this.btnCompute.UseVisualStyleBackColor = true;
+            this.btnCompute.Click += new System.EventHandler(this.btnCompute_Click);
             // 
             // FrmBasicCalculator
             // 
@@ -128,7 +134,7 @@
             this.Controls.Add(this.txtNum1);
             this.Controls.Add(this.label1);
             this.Name = "FrmBasicCalculator";
-            this.Text = "FrmBasicCalculator";
+            this.Text = "Basic Calculator";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);

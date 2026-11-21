@@ -20,6 +20,7 @@ namespace BasicCalculator
 
         private void btnCompute_Click(object sender, EventArgs e)
         {
+
             try
             {
                 if (!float.TryParse(txtNum1.Text, out float a))
